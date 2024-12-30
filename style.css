@@ -8,6 +8,10 @@ white #fdfdfd
 */
 
 .calc {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 	margin: 50px auto;
 	width: 300px;
 	height: 500px;
@@ -79,22 +83,11 @@ white #fdfdfd
 }
 .text1 {
 	position: absolute;
-	top: 0px;
+	top: 500px;
+	left: 360px;
 	font-size: 50px;
 	font-family: arial black;
 	color: black;
 }
 .text1:hover {
 	cursor: default;
-}
-.text2 {
-	position: absolute;
-	top: 0px;
-	left: 710px;
-	font-size: 50px;
-	font-family: arial black;
-	color: black;
-}
-.text2:hover {
-	cursor: default;
-}
